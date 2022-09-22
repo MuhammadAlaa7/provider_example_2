@@ -1,16 +1,6 @@
 # provider_switch_example
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# provider_switch_example
+# first, put the provider at the top of the widgets tree so that all can listen to it.
+# then, put the material app with its theme in the second widget < home page > for example 
+# get the states from from the provider through >>>> Provider.of< provider class that holds the states >(context).member or the state that you need to use
